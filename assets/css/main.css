@@ -164,17 +164,18 @@ ul.nosyely_list {
     padding: 25px;
     min-width: 120px;
     color: #ffffff;
-    font-size: 48px;
+    font-size: 100px;
     font-weight: 600;
     text-align: center;
     line-height: 1.2;
     color: #E1E1E1;
+    text-shadow: 15px 10px 1px rgba(255, 255, 255, 0.2);
 }
 
 .countdown div span {
     display: block;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 700;
     color: #E1E1E1;
 }
 
@@ -1903,6 +1904,7 @@ footer .newsletter_form .form-control {
 .copyright_footer {
     background-color: #080113;
     padding: 15px;
+    text-align: center;
 }
 
 .copyright_footer p {
@@ -2394,23 +2396,25 @@ Cover
 .icon_box_one .content {
     margin-top: 0;
     padding: 10px 25px 25px;
+    height: 226px;
 }
 
 .icon_box_one .content h4 {
-    color: #18181c;
-    margin-bottom: 90px;
+    color: #FFFF;
     text-transform: capitalize;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
 .icon_box_one .content a {
-    color: #FFF;
+    color: #FFFF;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    position: absolute;
+    bottom: 24px;
 }
 
 .icon_box_one .content p {
@@ -2427,12 +2431,6 @@ Cover
 }
 
 .icon_box_one:hover i {
-    color: #ffffff;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.icon_box_one:hover .content h4 {
     color: #ffffff;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -2474,7 +2472,7 @@ Cover
 .icon_box_two .content .box_title {
     margin-bottom: 3px;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
     color: #FFFFFF;
     text-transform: uppercase;
     margin-top: 6px;
@@ -3516,7 +3514,6 @@ ul#tabs-nav li {
     font-weight: 300;
     font-size: 22px;
     line-height: 26px;
-    color: #FFFFFF;
     text-decoration: none;
     padding: 10px 14px;
     cursor: pointer;
@@ -3530,10 +3527,6 @@ ul#tabs-nav li.active {
 ul#tabs-nav li:hover {
     background: #FFFFFF;
     border-radius: 8px;
-}
-
-ul#tabs-nav li.active>ul#tabs-nav li {
-    color: #0A1E32 !important;
 }
 
 .thumb__item {
