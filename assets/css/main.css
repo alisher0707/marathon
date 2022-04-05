@@ -41,7 +41,7 @@ body {
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #838383;
     font-style: normal;
     overflow-x: hidden;
@@ -2135,10 +2135,10 @@ Cover
 }
 
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
-    margin-top: 25px;
-    margin-bottom: 0;
-    font-weight: 500;
-    color: #ffffff;
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 62px;
+    color: #FFFFFF;
     text-transform: uppercase;
 }
 
@@ -2156,9 +2156,9 @@ Cover
 }
 
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
-    font-size: 18px;
+    font-size: 26px;
     color: #ffffff;
-    margin-bottom: 25px;
+    margin-bottom: 36px;
     text-transform: uppercase;
 }
 
