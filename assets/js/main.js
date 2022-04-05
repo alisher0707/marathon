@@ -66,18 +66,18 @@ $(document).ready(function() {
     /* ==============================================
      SLIDER
      =============================================== */
-    $(".cover_slider").owlCarousel({
-        loop: true,
-        autoplay: true,
-        smartSpeed: 1000,
-        autoplayHoverPause: false,
-        dots: true,
-        nav: false,
-        items: 1,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        dotsContainer: '.cover_dots'
-    });
+    // $(".cover_slider").owlCarousel({
+    //     loop: true,
+    //     autoplay: true,
+    //     smartSpeed: 1000,
+    //     autoplayHoverPause: false,
+    //     dots: true,
+    //     nav: false,
+    //     items: 1,
+    //     animateOut: 'fadeOut',
+    //     animateIn: 'fadeIn',
+    //     dotsContainer: '.cover_dots'
+    // });
 
     $(".brand_carousel").owlCarousel({
         loop: true,
