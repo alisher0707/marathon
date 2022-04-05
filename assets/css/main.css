@@ -1723,13 +1723,13 @@ header ul.menu li a.nav-link:hover {
     color: #2A64AC;
 }
 
-header ul.menu .search_btn {
+header ul.menu .lang-switch {
     padding: 16px 8px !important;
     color: #ffffff;
 }
 
-header ul.menu .search_btn a {
-    font-size: 30px;
+header ul.menu .lang-switch a {
+    font-size: 12px;
 }
 
 header li ul {
@@ -1790,6 +1790,10 @@ header.sticky_header {
     box-shadow: 0 0 0 !important;
     cursor: pointer;
     border-radius: 2px;
+}
+
+#headernav {
+    justify-content: space-between;
 }
 
 @media (min-width: 767px) {
@@ -2133,14 +2137,9 @@ Cover
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
     margin-top: 25px;
     margin-bottom: 0;
-    opacity: 0;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-    -webkit-transition: all 0.4s 600ms ease-in-out;
-    transition: all 0.4s 600ms ease-in-out;
 }
 
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
@@ -2161,22 +2160,6 @@ Cover
     color: #ffffff;
     margin-bottom: 25px;
     text-transform: uppercase;
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-    -webkit-transition: all 0.4s 900ms ease-in-out;
-    transition: all 0.4s 900ms ease-in-out;
-}
-
-.cover_slider .cover_item .slider_content .slider-content-inner a {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-    -webkit-transition: transform 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
-    -webkit-transition: opacity 0.4s 1200ms ease-in-out, -webkit-transform 0.4s 1200ms ease-in-out;
-    transition: opacity 0.4s 1200ms ease-in-out, -webkit-transform 0.4s 1200ms ease-in-out;
-    transition: transform 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out;
-    transition: transform 0.4s 1200ms ease-in-out, opacity 0.4s 1200ms ease-in-out, -webkit-transform 0.4s 1200ms ease-in-out;
 }
 
 .cover_slider .active .slider_content .slider-content-inner * .cover-title {
